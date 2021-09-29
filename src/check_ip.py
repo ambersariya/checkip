@@ -1,5 +1,6 @@
 import requests
 
+
 class CheckIp:
     URL = "https://checkip.amazonaws.com"
     TIMEOUT_SECS = 5
