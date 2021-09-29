@@ -41,7 +41,7 @@ Before you begin, ensure you have a virual environment created
 🌈  ~ $ poetry shell
 ```
 
-## Buy my a coffee :coffee:
+## Buy me a coffee :coffee:
 
 ```
 BTC: 3ESH5gw71mKYC6kvsxo5AP9t3qPX459mmT
