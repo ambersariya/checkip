@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "checkip"
+version = "0.1.0"
+description = "Tells your current IP address"
+authors = ["Javed, Danish <danish.javed@gmail.com>"]
+
+packages = [
+    { include="src", from="." },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6.2,<4.0"
+requests = "^2.26.0"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.9b0"
+requests-mock = "^1.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+checkip = "src.cli:check_ip"
