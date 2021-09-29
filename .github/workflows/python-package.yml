@@ -30,7 +30,7 @@ jobs:
         poetry install        
     - name: Lint with flake8
       run: |
-        black
+         .venv/bin/black src
     - name: Test with pytest
       run: |
-        pytest
+         .venv/bin/pytest
