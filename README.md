@@ -1,6 +1,6 @@
 # Check IP
 
-Simple wrapper around AWS check ip https://checkip.amazonaws.com
+Simple cli utility which helps you check your public ip address.
 
 ## Installation
 
