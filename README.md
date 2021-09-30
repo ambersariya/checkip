@@ -1,6 +1,6 @@
 # Check IP
 
-Simple wrapper around AWS check ip https://checkip.amazonaws.com
+Simple cli utility which helps you check your public ip address.
 
 ## Installation
 
@@ -39,4 +39,11 @@ Before you begin, ensure you have a virual environment created
 
 ```bash
 🌈  ~ $ poetry shell
+```
+
+## Buy me a coffee :coffee:
+
+```
+BTC: 3ESH5gw71mKYC6kvsxo5AP9t3qPX459mmT
+ETH: 0xFb25C8B1664E5B42B82D9d44C4a162942F9e20fE
 ```
