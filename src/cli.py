@@ -2,7 +2,8 @@ import click
 
 from src.check_ip import CheckIp
 import pkg_resources
-package_version = pkg_resources.get_distribution('checkip').version
+
+package_version = pkg_resources.get_distribution("checkip").version
 
 
 @click.command()
