@@ -1,9 +1,12 @@
 import click
 
 from src.check_ip import CheckIp
+import pkg_resources
+package_version = pkg_resources.get_distribution('checkip').version
 
 
 @click.command()
+@click.version_option(package_version)
 def check_ip():
     """Simple program that tells you your current public IP address."""
     try:

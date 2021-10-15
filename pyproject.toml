@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "checkip"
-version = "0.1.1"
+version = "0.1.2"
 description = "Tells your current IP address"
 authors = ["Javed, Danish <danish.javed@gmail.com>"]
 
