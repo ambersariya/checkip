@@ -5,12 +5,16 @@ Simple cli utility which helps you check your public ip address.
 ## Installation
 
 ```bash
-🌈  ~ $ pip install checkip-0.1.0-py3-none-any.whl 
+🌈  ~ $ pip install checkip-<version_number>-py3-none-any.whl 
 ```
 
 ## Usage
 
 ```bash
+
+🌈  ~ $ checkip --version
+checkip, version 0.1.2
+
 🌈  ~ $ checkip
 64.233.191.119
 ```
